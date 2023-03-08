@@ -20,7 +20,7 @@ class ChatApplication:
         
         
     def _setup_main_window(self):
-        self.window.title("Napa ~ College Enquiry Chatbot")
+        self.window.title("Enquiry ChatBot")
         self.window.resizable(width=False, height=False)
         self.window.configure(width=490, height=550, bg=BG_COLOR)
         
