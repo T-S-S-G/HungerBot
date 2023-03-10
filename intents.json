@@ -2,58 +2,70 @@
   "intents": [
     {
       "tag": "greeting1",
-      "patterns": [
-        "Hi",
-        "Hey",
-        "Hello"
-      ],
-      "responses": [
-        "Hello!"
-      ],
+      "patterns": ["Hi", "Hey", "Hello"],
+      "responses": ["Hello!"],
       "context_set": ""
     },
     {
       "tag": "greeting2",
-      "patterns": [
-        "How are you?"
-      ],
-      "responses": [
-        "I am good. Thanks for asking!"
-      ],
+      "patterns": ["How are you?"],
+      "responses": ["I am good. Thanks for asking!"],
       "context_set": ""
     },
     {
       "tag": "greeting3",
-      "patterns": [
-        "Is anyone there?"
-      ],
-      "responses": [
-        "Hi there, how can I help?"
-      ],
+      "patterns": ["Have a nice day", "Have a Good day"],
+      "responses": ["Thanks, Hope to see you again soon!"],
       "context_set": ""
     },
     {
       "tag": "greeting4",
-      "patterns": [
-        "Have a nice day",
-        "Have a Good day"
-      ],
-      "responses": [
-        "Thanks, Hope to see you again soon!"
-      ],
+      "patterns": ["Oh great","great","wow","nice","sounds great","sounds good"],
+      "responses": ["Thanks, hope you liked it!",
+      "Thanks"
+    ],
       "context_set": ""
     },
     {
-      "tag": "greeting5",
-      "patterns": [
-        "Oh great",
-        "great",
-        "wow",
-        "nice"
-      ],
-      "responses": [
-        "Thanks, hope you liked it! "
-      ],
+      "tag": "query1",
+      "patterns": ["Is anyone there?"],
+      "responses": ["Hi there, how can I help?"],
+      "context_set": ""
+    },
+    {
+      "tag": "query2",
+      "patterns": ["Can you please help me?"],
+      "responses": ["Yeah sure. Go ahead with your querries. I'm always here to help you."],
+      "context_set": ""
+    },
+    {
+      "tag": "query3",
+      "patterns": ["I need your help",
+      "I need a help",
+      "Will you help me?"
+    ],
+      "responses": ["Yeah sure, I'll be happy to help you. Ask me what do you want to know?"],
+      "context_set": ""
+    },
+    {
+      "tag": "query4",
+      "patterns": ["One more thing",
+      "I have One more thing to ask you",
+      "Can I ask a question?",
+      "Can I ask you a question?"
+    ],
+      "responses": ["Yes, go ahead."],
+      "context_set": ""
+    },
+    {
+      "tag": "query5",
+      "patterns": ["What is the famous bengali dish?",
+      "What are the most famous bengali dishes?",
+      "What is famous in bengal?",
+      "What dish is famous in bengal?"
+    ],
+      "responses": ["Ohh that's a great question. Bengal is known for their variety of dishes. If you want to try some bengali dishes I would recommend you to go with Luchi - Alur Dom, Ilish Bhapa, Chingri Malaikari, Shukto, Bhetki Macher Paturi, Sorshe Ilish etc."
+    ],
       "context_set": ""
     },
     {
@@ -71,11 +83,7 @@
         "i got to go",
         "gtg"
       ],
-      "responses": [
-        "Sad to see you go :(",
-        "Goodbye!",
-        "Come back soon"
-      ],
+      "responses": ["Sad to see you go :(", "Goodbye!", "Come back soon"],
       "context_set": ""
     },
     {
@@ -99,8 +107,9 @@
         "who designed you"
       ],
       "responses": [
-        "Gourab, Sayantan, Tamalika and Sanjit [Qaud-Core] developed me in November 2022, for their 7th Semester project",
-        "I was developed by Gourab, Sayantan, Tamalika and Sanjit [Qaud-Core]"
+        "Tamalika, Sayantan, Gourab and Sanjit developed me in March 2023.",
+        "I was developed by Tamalika, Sayantan, Gourab and Sanjit.",
+        "4 youngsters developed me in PCMT college. Tamalika, Sayantan, Gourab and Sanjit."
       ],
       "context_set": ""
     },
@@ -118,19 +127,21 @@
         "who are you",
         "who is this",
         "what am i chatting to",
-        "who am i taking to",
-        "what are you"
+        "who am i taking to"
       ],
       "responses": [
-        "You can call me Lucy.",
-        "Hi! I'm Lucy, your virtual assistant"
+        "You can call me Chef Ji.",
+        "I'm Chef Ji",
+        "I'm Chef Ji aka Hunger Bot."
       ],
       "context_set": ""
     },
     {
       "tag": "random",
       "patterns": ["I love you", "Will you marry me", "Do you love me"],
-      "responses": ["I am not programmed for this please ask appropriate query"],
+      "responses": [
+        "I am not programmed for this please ask appropriate query"
+      ],
       "context_set": ""
     },
     {
@@ -166,7 +177,10 @@
         "Thanks",
         "k",
         "ok",
-        "okay"
+        "okay",
+        "Thankyou",
+        "Thanku",
+        ""
       ],
       "responses": [
         "I am glad that I helped you",
@@ -176,10 +190,7 @@
     },
     {
       "tag": "salutaion2",
-      "patterns": [
-        "ohh sorry",
-        "sorry"
-      ],
+      "patterns": ["ohh sorry", "sorry", "my bad", "oh sorry"],
       "responses": [
         "It's ok! I'm here to help you.",
         "Don't worry, I'm here to help you."
@@ -202,103 +213,461 @@
       "context_set": ""
     },
     {
+      "tag": "chai",
+      "patterns": [
+        "milk tea leaf",
+        "water tea leaf",
+        "milk sugar tea leaf",
+        "water sugar tea leaf",
+        "milk ginger tea leaf",
+        "water ginger tea leaf",
+        "water ginger tea leaf sugar",
+        "milk ginger tea leaf sugar"
+      ],
+      "responses": ["You can make Tea.."]
+    },
+    {
+      "tag": "chai-need ingredients",
+      "patterns": [
+        "milk ",
+        "water ",
+        "milk sugar ",
+        "water sugar ",
+        "milk ginger ",
+        "water ginger ",
+        "water ginger  sugar",
+        "milk ginger  sugar"
+      ],
+      "responses": ["You can make Tea by adding Tea Leaf to it"]
+    },
+
+    {
+      "tag": "Dish 2",
+      "patterns": [
+        "Bhetki fish, yoghurt, chopped onion, green chillies, ginger garlic paste, turmeric powder, cumin powder, coriander powder, red chilli powder, garam masala, black pepper, bay leaf, cardamom, salt, cloves, mustard oil"
+      ],
+      "responses": ["you can make Doi Bhetki"]
+    },
+    {
+      "tag": "Dish-2 need ingredients",
+      "patterns": [
+        "yoghurt, chopped onion, green chillies, ginger garlic paste, turmeric powder, cumin powder, coriander powder, red chilli powder, garam masala, black pepper, bay leaf, cardamom, salt, cloves, mustard oil"
+      ],
+      "responses": ["you can make Doi Bhetki by adding Bhetki fish into it"]
+    },
+    {
+      "tag": "Dish-2 reverse",
+      "patterns": [
+        "I want to make Doi Bhetki",
+        "What are the ingredients needed to make Doi Bhetki?",
+        "What are the ingredients needed to prepare Doi Bhetki?",
+        "I want to prepare Doi Bhetki"
+      ],
+      "responses": [
+        "Great choice. For this you'll require Bhetki fish, yoghurt, chopped onion, green chillies, ginger garlic paste, turmeric powder, cumin powder, coriander powder, red chilli powder, garam masala, black pepper, bay leaf, cardamom, salt, cloves, mustard oil"
+      ]
+    },
+    {
+      "tag": "Dish 3",
+      "patterns": [
+        "Hilsa fish, mustard seeds, green chillies, coconut, yoghurt, salt, sugar, turmeric powder, mustard oil"
+      ],
+      "responses": ["you can make Ilish bhapa"]
+    },
+    {
+      "tag": "Dish-3 need ingredients",
+      "patterns": [
+        "mustard seeds, green chillies, coconut, yoghurt, salt, sugar, turmeric powder, mustard oil"
+      ],
+      "responses": ["you can make Ilish Bhapa by adding Hilsh Fish into it"]
+    },
+    {
+      "tag": "Dish-3 reverse",
+      "patterns": [
+        "I want to make Ilish Bhapa",
+        "What are the ingredients needed to make Ilish Bhapa?",
+        "What are the ingredients needed to prepare Ilish Bhapa?",
+        "I want to prepare Ilish Bhapa"
+      ],
+      "responses": [
+        "That's one of my favourite. To make this you must have Hilsa fish, mustard seeds, green chillies, coconut, yoghurt, salt, sugar, turmeric powder, mustard oil"
+      ]
+    },
+    {
+      "tag": "Dish 4",
+      "patterns": [
+        "Bhetki fish, lemon juice, coconut, yellow mustard, black mustard, green chillies, salt, banana leaves, mustard oil"
+      ],
+      "responses": ["you can make Bhetki Paturi"]
+    },
+    {
+      "tag": "Dish 4",
+      "patterns": [
+        "lemon juice, coconut, yellow mustard, black mustard, green chillies, salt, banana leaves, mustard oil"
+      ],
+      "responses": ["you can make Bhetki paturi by adding Bhetki Fish into it"]
+    },
+    {
+      "tag": "Dish-4 reverse",
+      "patterns": [
+        "I want to make Bhetki Paturi",
+        "What are the ingredients needed to make Bhetki Paturi?",
+        "What are the ingredients needed to prepare Bhetki Paturi?",
+        "I want to prepare Bhetki Paturi"
+      ],
+      "responses": [
+        "Great choice. The ingredients that you'll require are Bhetki fish, lemon juice, coconut, yellow mustard, black mustard, green chillies, salt, banana leaves, mustard oil"
+      ]
+    },
+    {
+      "tag": "Dish 5",
+      "patterns": [
+        "Katla fish, mustard oil, salt, turmeric and chilli powder, sugar, curd, cumin seeds, cloves, cardamoms, cinnamon, green chilli paste, ginger paste, cashews"
+      ],
+      "responses": ["you can make Doi Katla"]
+    },
+    {
+      "tag": "Dish 5",
+      "patterns": [
+        "mustard oil, salt, turmeric and chilli powder, sugar, curd, cumin seeds, cloves, cardamoms, cinnamon, green chilli paste, ginger paste, cashews"
+      ],
+      "responses": ["you can make Doi Katla by adding Katla Fish into it"]
+    },
+    {
+      "tag": "Dish-5 reverse",
+      "patterns": [
+        "I want to make Doi Katla",
+        "What are the ingredients needed to make Doi Katla?",
+        "What are the ingredients needed to prepare Doi Katla?",
+        "I want to prepare Doi Katla"
+      ],
+      "responses": [
+        "Great choice. For this you must require Katla fish, mustard oil, salt, turmeric and chilli powder, sugar, curd, cumin seeds, cloves, cardamoms, cinnamon, green chilli paste, ginger paste, cashews"
+      ]
+    },
+    {
+      "tag": "recipe 1",
+      "patterns": [
+        "mustard oil, nigella seeds, dried red chillies, onions, potatoes, poppy seeds, green chillies,salt, sugar "
+      ],
+      "responses": ["You can make aloo posto by using these ingredients"]
+    },
+    {
+      "tag": "recipe-1 need ingredients",
+      "patterns": [
+        "mustard oil, dried red chillies, onions, poppy seeds, green chillies,salt, sugar "
+      ],
+      "responses": ["You can make aloo posto by adding Aloo and Posto into it"]
+    },
+    {
+      "tag": "recipe-1 reverse",
+      "patterns": [
+        "I want to make Aloo Posto",
+        "What are the ingredients needed to make Aloo Posto?",
+        "What are the ingredients needed to prepare Aloo Posto?",
+        "I want to prepare Aloo Posto"
+      ],
+      "responses": [
+        "Great choice. For this you must require mustard oil, dried red chillies, onions, poppy seeds, green chillies,salt, sugar"
+      ]
+    },
+    {
+      "tag": "recipe 2",
+      "patterns": [
+        "gram flour, rice flour, salt, kashmiri red chilli powder, water, brinjal , salt , sugar , mustard oil"
+      ],
+      "responses": ["You can make Beguni by using these ingredients"]
+    },
+    {
+      "tag": "recipe-2 need ingredients",
+      "patterns": [
+        "gram flour, rice flour, salt, kashmiri red chilli powder, water, salt , sugar , mustard oil"
+      ],
+      "responses": ["You can make Beguni by adding Brinjal into it"]
+    },
+    {
+      "tag": "recipe-2 reverse",
+      "patterns": [
+        "I want to make Beguni",
+        "What are the ingredients needed to make Beguni?",
+        "What are the ingredients needed to prepare Beguni?",
+        "I want to prepare Beguni"
+      ],
+      "responses": [
+        "Great choice. For this you must require gram flour, rice flour, salt, kashmiri red chilli powder, water, brinjal , salt , sugar , mustard oil"
+      ]
+    },
+    {
+      "tag": "recipe 3",
+      "patterns": [
+        "all-purpose flour, salt, sugar, vegetable oil, hot water, vegetable oil for deep-frying"
+      ],
+      "responses": ["You can make luchi by using these ingredients"]
+    },
+    {
+      "tag": "recipe-3 need ingredients",
+      "patterns": [
+        "salt, sugar, vegetable oil, hot water, vegetable oil for deep-frying"
+      ],
+      "responses": ["You can make luchi by adding all purpose flour into it"]
+    },
+    {
+      "tag": "recipe-3 reverse",
+      "patterns": [
+        "I want to make Luchi",
+        "What are the ingredients needed to make Luchi?",
+        "What are the ingredients needed to prepare Luchi?",
+        "I want to prepare Luchi"
+      ],
+      "responses": [
+        "Great choice. For this you must require all-purpose flour, salt, sugar, vegetable oil, hot water, vegetable oil for deep-frying"
+      ]
+    },
+    {
+      "tag": "recipe 4",
+      "patterns": [
+        "sugar, white vinegar, ripe mangoes , onion, golden raisins , ginger , mustard seeds, red pepper flakes"
+      ],
+      "responses": ["You can make mango chutney by using these ingredients"]
+    },
+    {
+      "tag": "recipe-4 need ingredients",
+      "patterns": [
+        "sugar, white vinegar, onion, golden raisins , ginger , mustard seeds, red pepper flakes"
+      ],
+      "responses": ["You can make mango chutney by adding Ripe Mango into it"]
+    },
+    {
+      "tag": "recipe-4 reverse",
+      "patterns": [
+        "I want to make Mango Chutney",
+        "What are the ingredients needed to make Mango Chutney?",
+        "What are the ingredients needed to prepare Mango Chutney?",
+        "I want to prepare Mango Chutney"
+      ],
+      "responses": [
+        "Great choice. For this you must require sugar, white vinegar, ripe mangoes , onion, golden raisins , ginger , mustard seeds, red pepper flakes"
+      ]
+    },
+
+    {
       "tag": "dish",
       "patterns": [
         "I want to make a dish",
         "I wanna make a dish",
         "I want to prepare a dish",
-        "I wanna prepare a dish"
+        "I wanna prepare a dish",
+        "I want to make something",
+        "I want to prepare something"
       ],
-      "responses": ["Ohh that's great! What are the ingredients available to you?"]
+      "responses": [
+        "Ohh that's great! What are the ingredients available to you?"
+      ]
     },
     {
-      "tag": "ingredients-1",
+      "tag": "dish 1",
       "patterns": [
-        "rice, daal, mustard powder, water, chilli, vegitables, salt, sugar"
+        "rice, daal, mustard powder, water, chilli, vegetables, salt, sugar"
       ],
       "responses": ["You can make Khichdi by using that ingredients."]
     },
     {
-      "tag": "dish-1",
-      "patterns": [
-        "What are the ingredients needed to make khichdi?",
-        "I want to make Khichdi",
-        "What are the ingredients needed to prepare khichdi?",
-        "I want to prepare Khichdi"
-      ],
-      "responses": ["rice, daal, mustard powder, water, chilli, vegitables, salt, sugar"]
+      "tag": "dish-1 need ingredients",
+      "patterns": ["mustard powder, water, chilli, vegetables, salt, sugar"],
+      "responses": ["You can make Khichdi by adding Rice and Daal into it"]
     },
     {
-      "tag": "ingredients-2",
+      "tag": "dish-1 reverse",
       "patterns": [
-        "rice, milk, salt, elaichi, cashew, raisin, sugar"
+        "What are the ingredients needed to make khichdi?",
+        "What are the ingredients needed to make khichudi?",
+        "I want to make Khichdi",
+        "I want to make Khichudi",
+        "What are the ingredients needed to prepare khichdi?",
+        "What are the ingredients needed to prepare khichudi?",
+        "I want to prepare Khichdi",
+        "I want to prepare Khichudi"
       ],
+      "responses": [
+        "Great choice. For this you must require rice, daal, mustard powder, water, chilli, vegetables, salt, sugar"
+      ]
+    },
+    {
+      "tag": "khichdi, khichudi", 
+      "patterns": ["How much time is required to make khichdi?",
+      "How much time is required to make khichudi?",
+      "How much time does the khichdi takes to be prepared?",
+      "How much time does the khichudi takes to be prepared?",
+      "How much time will it take to cook khichdi?",
+      "How much time will it take to cook khichudi?"
+    ],
+      "responses": [
+        "It will take around 45mins to 1hrs to be prepared."
+      ]
+    },
+    {
+      "tag": "dish 2",
+      "patterns": ["rice, milk, salt, elaichi, cashew, raisin, sugar"],
       "responses": ["You can make Payesh easily"]
     },
     {
-      "tag": "dish-2",
+      "tag": "dish-2 need ingredients",
+      "patterns": ["milk, salt, elaichi, cashew, raisin, sugar"],
+      "responses": ["You can make Payesh by adding Rice into it"]
+    },
+    {
+      "tag": "dish-2 reverse",
       "patterns": [
         "What are the ingredients needed to prepare payesh?",
         "I want to prepare payesh",
         "What are the ingredients needed to make payesh?",
         "I want to make payesh"
       ],
-      "responses": ["rice, milk, salt, elaichi, cashew, raisin, sugar"]
+      "responses": [
+        "Great choice. For this you must require rice, milk, salt, elaichi, cashew, raisin, sugar"
+      ]
     },
     {
-      "tag": "ingredients-3",
+      "tag": "payesh",
+      "patterns": ["How much time is required to make payesh?",
+      "How much time does the payesh takes to be prepared?",
+      "How much time will it take to cook payesh?"
+    ],
+      "responses": [
+        "It is the famous dessert in bengal. It will take around 45mins to 1hrs to be prepared."
+      ]
+    },
+    {
+      "tag": "dish 3",
       "patterns": [
         "prawn, salt, mustuard powder, chilli, cashew, raisin, sugar, coconut powder"
       ],
       "responses": ["You can make Chingri(Prawn) Malaikari"]
     },
     {
-      "tag": "dish-3",
-      "patterns": ["What are the ingredients needed to prepare chingri malaikari?",
-      "I want to make chingri malaikari",
-      "What are the ingredients needed to make chingri malaikari?",
-      "I want to prepare chingri malaikari"
-    ],
-      "responses": ["prawn, salt, mustuard powder, chilli, cashew, raisin, sugar, coconut powder"]
+      "tag": "dish-3 need ingredients",
+      "patterns": [
+        "salt, mustuard powder, chilli, cashew, raisin, sugar, coconut powder"
+      ],
+      "responses": [
+        "You can make Chingri(Prawn) Malaikari by adding Prawn into it"
+      ]
     },
     {
-      "tag": "ingredients-4",
+      "tag": "dish-3 reverse",
+      "patterns": [
+        "What are the ingredients needed to prepare chingri malaikari?",
+        "What are the ingredients needed to prepare prawn malaikari",
+        "I want to make chingri malaikari",
+        "I want to make prawn malaikari",
+        "What are the ingredients needed to make chingri malaikari?",
+        "What are the ingredients needed to make prawn malaikari?",
+        "I want to prepare chingri malaikari",
+        "I want to prepare prawn malaikari"
+      ],
+      "responses": [
+        "Great choice. For this you must require prawn, salt, mustuard powder, chilli, cashew, raisin, sugar, coconut powder"
+      ]
+    },
+    {
+      "tag": "chingri, prawn",
+      "patterns": ["How much time is required to make chingri?",
+      "How much time is required to make prawn?",
+      "How much time is required to make chingri malaikari?",
+      "How much time is required to make prawn malaikari?",
+      "How much time does the chingri malaikari takes to be prepared?",
+      "How much time does the prawn malaikari takes to be prepared?",
+      "How much time will it take to cook chingri malaikari?",
+      "How much time will it take to cook prawn malaikari?"
+    ],
+      "responses": [
+        "It will take around 30mins to 45mins to be prepared."
+      ]
+    },
+    {
+      "tag": "dish 4",
       "patterns": [
         "chicken, salt, mustuard powder, chilli powder, jeera powder, coriender powder, water, onion, ginger & garlic paste, ground spices, vegitable oil"
       ],
       "responses": ["You can make Chicken Curry"]
     },
     {
-      "tag": "dish-4",
-      "patterns": ["What are the ingredients needed to prepare chicken curry?",
-      "I want to make chicken curry",
-      "What are the ingredients needed to make chicken Curry?",
-      "I want to prepare chicken curry"
-    ],
-      "responses": ["chicken, salt, mustuard powder, chilli powder, jeera powder, coriender powder, water, onion, ginger & garlic paste, ground spices, vegitable oil"]
+      "tag": "dish-4 need ingredients",
+      "patterns": [
+        "salt, mustuard powder, chilli powder, jeera powder, coriender powder, water, onion, ginger & garlic paste, ground spices, vegitable oil"
+      ],
+      "responses": ["You can make Chicken Curry by adding Chicken into it"]
     },
     {
-      "tag": "ingredients-5",
+      "tag": "dish-4 reverse",
+      "patterns": [
+        "What are the ingredients needed to prepare chicken curry?",
+        "what is required to make chicken?",
+        "what is required to prepare chicken?",
+        "what is required to make chicken curry?",
+        "what is required to prepare chicken curry?",
+        "I want to make chicken curry",
+        "What are the ingredients needed to make chicken Curry?",
+        "I want to prepare chicken curry"
+      ],
+      "responses": [
+        "You need these ingredients to prepare chicken curry. Chicken, salt, mustuard powder, chilli powder, jeera powder, coriender powder, water, onion, ginger & garlic paste, ground spices, vegitable oil"
+      ]
+    },
+    {
+      "tag": "chicken",
+      "patterns": ["How much time is required to make chicken?",
+      "How much time is required to make chicken curry?",
+      "How much time does the chicken curry takes to be prepared?",
+      "How much time will it take to cook chicken curry?"
+    ],
+      "responses": [
+        "It will take around 45mins to 1hrs to be prepared."
+      ]
+    },
+    {
+      "tag": "dish 5",
       "patterns": [
         "mutton, salt, mustuard powder, chilli powder, jeera powder, coriender powder, curd, water, onion, ginger & garlic paste, ground spices, vegitable oil"
       ],
       "responses": ["You can make Mutton Curry"]
     },
     {
-      "tag": "dish-5",
-      "patterns": ["What are the ingredients needed to prepare mutton curry?",
-      "I want to prepare mutton curry",
-      "What are the ingredients needed to make mutton curry?",
-      "I want to make mutton curry"
+      "tag": "dish-5 need ingredients",
+      "patterns": [
+        "salt, mustuard powder, chilli powder, jeera powder, coriender powder, curd, water, onion, ginger & garlic paste, ground spices, vegitable oil"
+      ],
+      "responses": ["You can make Mutton Curry by adding Mutton into it"]
+    },
+    {
+      "tag": "dish-5 reverse",
+      "patterns": [
+        "What are the ingredients needed to prepare mutton curry?",
+        "I want to prepare mutton curry",
+        "What are the ingredients needed to make mutton curry?",
+        "I want to make mutton curry"
+      ],
+      "responses": [
+        "You need these ingredients to prepare mutton curry. Mutton, salt, mustuard powder, chilli powder, jeera powder, coriender powder, curd, water, onion, ginger & garlic paste, ground spices, vegitable oil"
+      ]
+    },
+    {
+      "tag": "mutton",
+      "patterns": ["How much time is required to make mutton?",
+      "How much time is required to make mutton curry?",
+      "How much time does the mutton curry takes to be prepared?",
+      "How much time will it take to cook mutton curry?"
     ],
-      "responses": ["Mutton, salt, mustuard powder, chilli powder, jeera powder, coriender powder, curd, water, onion, ginger & garlic paste, ground spices, vegitable oil"]
+      "responses": [
+        "It will take around 2hrs to 2.5hrs to be prepared."
+      ]
     },
     {
       "tag": "ingredients-6",
-      "patterns": [
-        "rice, water"
-      ],
-      "responses": ["You can make only Plain Rice. Do have any other ingredients?"]
+      "patterns": ["rice, water"],
+      "responses": [
+        "You can make only Plain Rice. Do have any other ingredients?"
+      ]
     },
     {
       "tag": "ingredients-7",
@@ -318,7 +687,36 @@
         "garlic",
         "vegitable oil"
       ],
-      "responses": ["Sorry, you can't make any dish by only one ingredient. You need others ingredients also."]
+      "responses": [
+        "Sorry, you can't make any dish by only one ingredient. You need others ingredients also."
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": ["Sorry I don't have much time in my hand.",
+    "I don't have much time in my hand.",
+    "don't have much time in my hand"
+  ],
+      "responses": [
+        "ummmm... I can understand."
+      ]
+    },
+    {
+      "tag": "quick recipe",
+      "patterns": ["Can I make anything in 10min?",
+      "Can I make anything in 10mins?",
+      "What can be made in 10min?",
+      "What can be made in 10mins?",
+      "What can be made in 10 minutes?",
+      "What can be made within 10 minutes?",
+      "What can be made within 10min?",
+      "What can be made in 10mins?",
+      "What can be made under 10 minutes?",
+      "What can be made under 10mins?"
+    ],
+      "responses": [
+        "I can understand you have less time in your hand. You can make Egg roll, Chowmin, Butter toast, Egg toast, Sandwich, Omlette etc. in less that 10mins "
+      ]
     }
   ]
 }
