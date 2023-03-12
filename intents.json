@@ -287,7 +287,8 @@
         "I want to make Ilish Bhapa",
         "What are the ingredients needed to make Ilish Bhapa?",
         "What are the ingredients needed to prepare Ilish Bhapa?",
-        "I want to prepare Ilish Bhapa"
+        "I want to prepare Ilish Bhapa",
+        "What ingredients need to make ilish bhapa?"
       ],
       "responses": [
         "That's one of my favourite. To make this you must have Hilsa fish, mustard seeds, green chillies, coconut, yoghurt, salt, sugar, turmeric powder, mustard oil"
@@ -339,7 +340,9 @@
         "I want to make Doi Katla",
         "What are the ingredients needed to make Doi Katla?",
         "What are the ingredients needed to prepare Doi Katla?",
-        "I want to prepare Doi Katla"
+        "I want to prepare Doi Katla",
+        "what are the ingredients for dahii katla",
+        "what are the ingredients needed for doi katla"
       ],
       "responses": [
         "Great choice. For this you must require Katla fish, mustard oil, salt, turmeric and chilli powder, sugar, curd, cumin seeds, cloves, cardamoms, cinnamon, green chilli paste, ginger paste, cashews"
@@ -368,7 +371,7 @@
         "I want to prepare Aloo Posto"
       ],
       "responses": [
-        "Great choice. For this you must require mustard oil, dried red chillies, onions, poppy seeds, green chillies,salt, sugar"
+        "Great choice. For this you must require potatoes, mustard oil, dried red chillies, poppy seeds, green chillies, salt, sugar etc."
       ]
     },
     {
@@ -458,7 +461,9 @@
         "I want to prepare a dish",
         "I wanna prepare a dish",
         "I want to make something",
-        "I want to prepare something"
+        "I want to prepare something",
+        "make something",
+        "prepare something"
       ],
       "responses": [
         "Ohh that's great! What are the ingredients available to you?"
@@ -648,7 +653,7 @@
         "I want to make mutton curry"
       ],
       "responses": [
-        "You need these ingredients to prepare mutton curry. Mutton, salt, mustuard powder, chilli powder, jeera powder, coriender powder, curd, water, onion, ginger & garlic paste, ground spices, vegitable oil"
+        "You need these ingredients to prepare mutton curry. mutton, salt, mustuard powder, chilli powder, jeera powder, coriender powder, curd, water, onion, ginger & garlic paste, ground spices, vegitable oil"
       ]
     },
     {
@@ -712,11 +717,884 @@
       "What can be made within 10min?",
       "What can be made in 10mins?",
       "What can be made under 10 minutes?",
-      "What can be made under 10mins?"
+      "What can be made under 10mins?",
+      "Hi Hunger Bot, I am hungry. Suggest me some food which is easy to make"
     ],
       "responses": [
-        "I can understand you have less time in your hand. You can make Egg roll, Chowmin, Butter toast, Egg toast, Sandwich, Omlette etc. in less that 10mins "
+        "I can understand you have less time in your hand. You can make Butter toast, Egg toast, Sandwich, Omlette, Pasta, Poha, Upma, Egg roll, Chowmin etc. in less that 10mins "
       ]
-    }
+    },
+
+
+
+
+
+    {
+      "tag": "snacks",
+      "patterns": [
+        "Name few snacks which I can make in five minutes",
+        "snacks which I can make in five minutes",
+        "fastest bengali snacks",
+        "five minutes snacks",
+        "snacks that can be made in 5 minutes",
+        "snacks that can be prepared in 5 minutes",
+        "quick bengali snacks",
+        "what snacks can be made in 5 minutes",
+        "what snacks can be prepared in 5 minutes"
+      ],
+      "responses": [
+        "You can make Phuchka, Jhalmuri, Masalamuri, Behuni, Alur Chop"
+      ]
+    },
+    {
+      "tag": "onion",
+      "patterns": [
+        "Is it okay to add onion in a veg dish?",
+        "Is it okay to add onion in a veg dish",
+        "Can we add onion in a veg dish",
+        "Can a veg dish be prepared by adding onion?",
+        "Can we make a veg dish by adding onion",
+        "Are onions required in a veg dish",
+        "Can we put onions in a veg dish",
+        "Can we add onions in a veg dish"
+      ],
+      "responses": [
+        "No, It's better not to add onions in veg dish"
+      ]
+    },
+    {
+      "tag": "non fire",
+      "patterns": [
+        "Tell me about some non fire cooking dishes",
+        "Suggest some non fire cooking dishes",
+        "Give some non fire cooking dishes",
+        "Name some dishes where fire is not required",
+        "Name some dishes where fire is not required to make it",
+        "Mention some non fire cooking dishes",
+        "What are the dishes that does not involve fire",
+        "Name some dishes that does not involve fire",
+        "What dishes can I make without using fire"
+      ],
+      "responses": [
+        "You can make Phuchka, Sandwich, Ice Cream"
+      ]
+    },
+    {
+      "tag": "bengali sweets",
+      "patterns": [
+        "What are some famous homemade bengali sweet dishes",
+        "Suggest some famous homemade bengali sweet dishes",
+        "Give some famous bengali sweet dishes",
+        "Name some homemade bengali sweet dishes",
+        "Name some famous homemade bengali sweet dishes",
+        "Mention some homemade bengali sweet dishes",
+        "Name some bengali sweet dishes that are made on occasions",
+        "Name some homemade bengali sweet dishes that are prepared on festivals",
+        "What homemade bengali sweet dishes are made on occasions",
+        "What homemade bengali sweet dishes can I make occasionally",
+        "Best homemade bengali sweet dishes",
+        "Homemade bengali sweet dishes to make occasionally",
+        "Homemade bengali sweet dishes"
+      ],
+      "responses": [
+        "Well there are some really mouth watering sweet dishes that you can make like Pithe, Malpua, Naru, Payesh"
+      ]
+    },
+    {
+      "tag": "spices",
+      "patterns": [
+        "What are the most used spices in bengali dishes",
+        "Suggest some most used spices in bengali dishes",
+        "Give some most used spices in bengali dishes",
+        "Name some most used spices in bengali dishes",
+        "Mention some most used spices in bengali dishes",
+        "Name some most used spices in bengali dishes",
+        "What are some most used spices in bengali dishes"  
+      ],
+      "responses": [
+        "Most used bengali spices include mustard powder, red chilli powder, kashmiri red chilli powder, coriander powder, jeera powder, paanch phoron, bay leaves, black pepper powder, garam masala"
+      ]
+    },
+    {
+      "tag": "diet food",
+      "patterns": [
+        "What is the best kind of food after workout",
+        "Suggest some diet food",
+        "Suggest some healthy food",
+        "Give some food which is necessary for our health",
+        "Name some healthy food",
+        "Name some food that is healthy",
+        "Mention some diet food",
+        "Recommend some healthy diet food",
+        "What are some healthy diet food",
+        "Best healthy diet food"
+      ],
+      "responses": [
+        "You can have Fruits, fruit juice, chickpea, boiled egg, salad, yoghurt, dry fruits and many such food with less calories"
+      ]
+    },
+
+
+
+
+    {
+      "tag": "recipe with egg",
+      "patterns": [
+        "Quick bengali recipes with egg",
+        "quick bengali recipe",
+        "bengali recipes with egg",
+        "recipes with egg",
+        "something with egg",
+        "some recipes with egg",
+        "suggest some recipes with egg",
+        "suggest something with egg",
+        "suggest quick bengali recipe with egg",
+        "recommend some recipes with egg",
+        "recommend something with egg",
+        "recommend quick bengali recipe with egg"
+      ],
+      "responses": ["You can prepare Omlette, Egg Curry, Egg Poach"]
+    },
+    {
+      "tag": "main food of bengali",
+      "patterns": [
+        "what is the traditional food of bengali",
+        "what are the traditional food of bengali",
+        "food of bengali",
+        "course bengali menu",
+
+        "what is the traditional bengali foods",
+        "what are the traditional bengali foods",
+        "bengali foods",
+
+        "what is the traditional dishes of bengali",
+        "what are the traditional dishes of bengali",
+        "dishes of bengali",
+
+        "what is the traditional bengali dishes",
+        "what are the traditional bengali dishes",
+        "bengali dishes",
+
+        "what is the traditional cuisines of bengali",
+        "what are the traditional cuisines of bengali",
+        "cousines of bengali",
+
+        "what is the traditional bengali cuisines",
+        "what are the traditional bengali cuisines",
+        "bengali cuisines",
+
+        "what is the main food of bengali",
+        "what are the main food of bengali",
+
+        "what is the main bengali foods",
+        "what are the main bengali foods",
+
+        "what is the main dishes of bengali",
+        "what are the main dishes of bengali",
+
+        "what is the main bengali dishes",
+        "what are the main bengali dishes",
+
+        "what is the main cuisines of bengali",
+        "what are the main cuisines of bengali",
+
+        "what is the main bengali cuisines",
+        "what are the main bengali cuisines",
+
+        "what is the authentic food of bengali",
+        "what are the authentic food of bengali",
+
+        "what is the authentic bengali foods",
+        "what are the authentic bengali foods",
+
+        "what is the authentic dishes of bengali",
+        "what are the authentic dishes of bengali",
+
+        "what is the authentic bengali dishes",
+        "what are the authentic bengali dishes",
+
+        "what is the authentic cuisines of bengali",
+        "what are the authentic cuisines of bengali",
+
+        "what is the authentic bengali cuisines",
+        "what are the authentic bengali cuisines"
+      ],
+      "responses": [
+        "A traditional Bengali Cuisines consisting of bhaat (rice), aloo bhaja (fried potato), begun bhaja (fried eggplant), daal (lentils), chingri machher malaikari (prawn in coconut gravy), mutton, chatni, papad, and mishti(sweets)."
+      ]
+    },
+    {
+      "tag": "daab chingri",
+      "patterns": [
+        "Shrimps , coconut , onion , garlic , green chilli , mustard , panch phoron , mustard oil , Salt , Turmeric powder"
+      ],
+      "responses": ["You can prepare Daab Chingri using these ingredients"]
+    },
+    {
+      "tag": "daab chingri - need ingredients",
+      "patterns": [
+        "onion , garlic , green chilli , mustard , panch phoron , mustard oil , Salt , Turmeric powder"
+      ],
+      "responses": [
+        "You can prepare Daab Chingri adding Shrimps and Coconut into it"
+      ]
+    },
+    {
+      "tag": "daab chingri- reverse",
+      "patterns": [
+        "What are the ingredients needed to prepare daab chingri?",
+        "ingredients needed to prepare daab chingri",
+        "I want to prepare daab chingri",
+        "What are the ingredients needed to make daab chingri?",
+        "ingredients needed to make daab chingri",
+        "I want to make daab chingri"
+      ],
+      "responses": [
+        "Ingredients of Daab Chingri: Shrimps, deshelled and deveined, 1 large daab (tender coconut), 1 small onion, 2 cloves of garlic, 1/2 tsp green chilli paste, 2 Tbsp mustard paste, 1/4 tsp panch phoron, 3 Tbsp mustard oil, Salt, Turmeric powder, Wheat dough/aluminium foil (to seal the coconut)"
+      ]
+    },
+
+
+
+
+
+
+    {
+      "tag": "bengali dishes",
+      "patterns": [
+       "suggest me some common bengali dishes",
+       "suggest me a common bengali dish",
+       "bengali dishes",
+       "common bengali dishes",
+       "bengali ordinary dishes",
+       "bengali dishes which people eat everyday"
+      ],
+      "responses": ["Here are some common bengali food which we eat everyday - Aloo Posto, Rice and Daal, Chicken and Rice, Panta Rice etc."]
+    },
+    {
+      
+      "tag": "bengali starters",
+      "patterns": [
+        "suggest me some common bengali starters",
+        "bengali starters",
+        "common bengali starters",
+        "bengali ordinary starters",
+        "bengali starters which people eat everyday"
+      
+      ],
+      "responses": ["Here are some common bengali starters - Alur chop, Fuluri, Beguni, Egg devil etc."]
+    },
+    {
+      "tag": "desserts",
+      "patterns": [
+        "suggest me some common bengali desserts",
+        "bengali desserts",
+        "common bengali desserts",
+        "bengali ordinary desserts",
+        "famous bengali desserts which people eat everyday"
+       
+      ],
+      "responses": [ "Here are some common bengali desserts - Rasgulla, Nolen Gurer Sondesh, Baked Gulab Jamun, Rasmalai etc."] 
+    },
+    {
+      "tag": "unique bengali dish",
+      "patterns": [
+        "which type of things that makes bengali food lovable?",
+        "which type of things that makes bengali food unique?",
+        "What are the characteristics that makes bengali dishes unique"
+    ],
+      "responses": ["Aroma, Taste, Flavour, Spicyness these main things make the bengali dishes unique and famous."]
+    },
+  {
+      "tag": "bengali snacks",
+      "patterns": [
+        "suggest me some common bengali snacks",
+        "most famous bengali snacks",
+        "common bengali snacks",
+        "bengali ordinary snacks"
+    ],
+      "responses": ["Here are some common bengali snackss - Jhal Muri, Phuchka, Papri Chat, Bhelpuri, Alur-chop, Beguni etc."]
+    },
+
+
+
+
+
+    {
+      "tag": "bengali fast food",
+     "patterns": [
+       "suggest some common bengali fast food",
+       "most famous bengali fast food",
+       "common bengali fast food",
+       "bengali ordinary fast food"
+   ],
+     "responses": ["Egg Roll , Moglai, Chowmin, Cutlet, Chowmin, Fish Fry"]
+   },
+   {
+     "tag": "bengali veg food",
+     "patterns": [
+       "suggest some common bengali veg food",
+       "most famous bengali veg food",
+       "common bengali veg food",
+       "bengali ordinary veg food"
+   ],
+     "responses": ["palak paneer","paneer kima ghugni","bengali veg thali", "echor er torkari"] 
+   },
+   {
+     "tag": "suggest bengali healthy food",
+     "patterns": [
+       "suggest some common bengali healthy foods",
+       "most famous bengali healthy food",
+       "common bengali healthy food",
+       "bengali ordinary healthy food"
+   ],
+     "responses": ["ghee rice","doi chire","", "macher jhol", "jeera rice"] 
+   },
+
+
+
+
+
+
+
+   {
+    "tag": "eat today",
+    "patterns": [
+      "What can I eat today?",
+      "Suggest some food that I can eat today",
+      "Give some food that I can eat today",
+      "Name some food that I can eat today",
+      "Mention some food that I can eat today",
+      "Recommend some food that I can eat today",
+      "What are some food that I can eat today",
+      "Food that I can eat today",
+      "Menus of food that I can eat today"
+    ],
+    "responses": ["Are you going to have your Lunch or Dinner or want some food for the Breakfast?"
+    ]
+  },
+  {
+    "tag": "breakfast",
+    "patterns": [
+      "What can I eat today in breakast?",
+      "Suggest some food that I can eat in breakfast",
+      "Give some food that I can eat in breakfast",
+      "Name some food that I can eat in breakfast",
+      "Mention some food that I can eat in breakfast",
+      "Recommend some food that I can eat in breakfast",
+      "What are some food that I can eat in breakfast",
+      "Food that I can eat today in breakfast",
+      "Menus of food that I can eat in breakfast",
+      "I wanna have my breakfast",
+      "I want to do my breakfast",
+      "for breakfast",
+      "I will prefer some food for the breakfast"
+    ],
+    "responses": ["Good, then you can try Luchi-Aloor dom, Bread toast, Butter toast, Egg Omlette, Poha, Chire, Oats, Cornflakes etc."
+    ]
+  },
+  {
+    "tag": "lunch",
+    "patterns": [
+      "What can I eat today in lunch?",
+      "Suggest some food that I can eat in lunch",
+      "Give some food that I can eat in lunch",
+      "Name some food that I can eat in lunch",
+      "Mention some food that I can eat in lunch",
+      "Recommend some food that I can eat in lunch",
+      "What are some food that I can eat in lunch",
+      "Food that I can eat today in lunch",
+      "Menus of food that I can eat in lunch",
+      "I wanna have my lunch",
+      "I want to do my lunch",
+      "for lunch",
+      "I will prefer some food for the lunch"
+    ],
+    "responses": ["Okay, What do you Want to eat? Veg thali or Non-veg thali?"
+    ]
+  },
+  {
+    "tag": "dinner",
+    "patterns": [
+      "What can I eat today in dinner?",
+      "Suggest some food that I can eat in dinner",
+      "Give some food that I can eat in dinner",
+      "Name some food that I can eat in dinner",
+      "Mention some food that I can eat in dinner",
+      "Recommend some food that I can eat in dinner",
+      "What are some food that I can eat in dinner",
+      "Food that I can eat today in dinner",
+      "Menus of food that I can eat in dinner",
+      "I wanna have my dinner",
+      "I want to do my dinner",
+      "for dinner",
+      "I will prefer some food for the dinner"
+    ],
+    "responses": ["Okay, What do you Want to eat? Veg thali or Non-veg thali?"
+    ]
+  },
+  {
+    "tag": "bengali fishes",
+    "patterns": [
+      "What famous bengali fish dishes can I make?",
+      "What famous bengali fish dishes can be prepared?",
+      "Suggest some famous bengali fish dishes that I can make",
+      "Give some famous bengali fish dishes that can be made",
+      "Name some famous fish dishes that can be made",
+      "Mention some famous fish dishes that I can make",
+      "Recommend some famous fish dishes that I can make",
+      "Famous bengali fish dishes that I can make",
+      "Bengali fish dishes that can be prepared",
+      "Famous bengali fish dishes"
+      
+    ],
+    "responses": [
+      "Many bengali dishes are famous because it includes some famous fish dishes like Doi katla, bhetki paturi, Ilish bhapa, Doi bhetki "
+    ]
+  },
+  {
+    "tag": "oil",
+    "patterns": [
+      "Which oil is used for cooking bengali food?",
+      "Oil used for cooking food",
+      "Which oil can I use for cooking bengali food",
+      "Name a oil that can be used to make bengali food",
+      "Recommend the best oil that can be used to make bengali food"
+      
+    ],
+    "responses": [
+      "Mustard oil is a favourite in the State of West Bengal because of its sharp and pungent flavour. It adds horseradish like kick to vegetables and curries, which goes well with rice, a staple food of Bengalis."
+    ]
+  },
+  {
+    "tag": "non bengali",
+    "patterns": [
+      "Which bengali dishes can be easily prepared by people of other states",
+      "Name some easy bengali food that a non bengali can also make",
+      "Name some easy bengali food that a non bengali can also prepare",
+      "Give some easy bengali food that a non bengali can make",
+      "Recommend some easy bengali food that a non bengali can also make",
+      "Can you give some easy bengali dishes that a non bengali can also make"
+      
+    ],
+    "responses": [
+      "Some easy bengali dishes are rasmalai, begun bhaja, koraishutir kochuri, cholar dal, alur dom, narkel naru, chatni, luchi, aloo posto."
+    ]
+  },
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "tag": "paneer tomatoes",
+    "patterns": [
+      "can you suggest me a dish I can make with paneer and tomatoes?",
+      "suggest me a dish I can make with paneer and tomatoes?",
+      "a dish I can make with paneer and tomatoes?",
+      "I can make with paneer and tomatoes?",
+      "with paneer and tomatoes?",
+      "paneer and tomatoes"
+    ],
+    "responses": [
+      "You can make Paneer Tomato curry",
+      "You can prepare Paneer Tomato Curry"
+    ]
+  },
+  {
+    "tag": "green chillies and chicken",
+    "patterns": [
+      "I am in the mood of something spicy. What can I make with green chillies and chicken?"
+    ],
+    "responses": ["You can make Green Chilli Chicken"]
+  },
+  {
+    "tag": "spicy",
+    "patterns": ["I am in the mood of something spicy.", "spicy dish"],
+    "responses": [
+      "You can make Aloo Potol Posto",
+      "Ilish Macher Jhol",
+      "Shukto",
+      "Tangra Macher Jhol",
+      "Chicken Curry",
+      "Mutton Curry"
+    ]
+  },
+  {
+    "tag": "potatoes and peas",
+    "patterns": [
+      "Can you suggest me a recipe with potatoes and peas that I can make for dinner tonight?"
+    ],
+    "responses": ["You can make Alu Matar Paneer"]
+  },
+  {
+    "tag": "bell peppers and onions",
+    "patterns": [
+      "I want to make something with bell peppers and onions. What do you suggest?"
+    ],
+    "responses": [
+      "You can make Sauteed peppers and Onions",
+      "You can prepare Caramelized Onions and Bell Peppers"
+    ]
+  },
+  {
+    "tag": "okra and tomatoes",
+    "patterns": [
+      "I have some okra and tomatoes. Can you give me a recipe idea for this combination?"
+    ],
+    "responses": [
+      "You can make Stewed Okra and Tomatoes",
+      "You can prepare Stewed Okra and Tomatoes"
+    ]
+  },
+  {
+    "tag": "jaggery and coconut",
+    "patterns": [
+      "I'm craving something sweet. What can I make with jaggery and coconut?"
+    ],
+    "responses": [
+      "You can make Coconut Burfie",
+      "You can prepare Coconut Ladoo"
+    ]
+  },
+  {
+    "tag": "spinach and potatoes",
+    "patterns": [
+      "Can you give me a recipe idea for a dish with spinach and potatoes that's easy to make?"
+    ],
+    "responses": [
+      "You can make Aloo Palak",
+      "You can prepare Garlic Potato Spinach"
+    ]
+  },
+  {
+    "tag": "chicken and yogurt",
+    "patterns": [
+      "What can I make with chicken and yogurt that's healthy and easy to make?"
+    ],
+    "responses": ["You can make Dahi Chicken", "You can prepare Dahi Chicken"]
+  },
+  {
+    "tag": "cauliflower and spices",
+    "patterns": [
+      "Can you suggest a recipe that uses cauliflower and spices for a vegetarian meal?"
+    ],
+    "responses": [
+      "You can make Spicy Roated Cauliflower",
+      "You can prepare Spicy Roated Cauliflower"
+    ]
+  },
+  {
+    "tag": "chickpeas and tomatoes",
+    "patterns": [
+      "Can you give me a recipe idea for a dish with chickpeas and tomatoes that's filling?"
+    ],
+    "responses": [
+      "You can make Chickpea Tomato Stew",
+      "You can prepare Chickpea Tomato Stew"
+    ]
+  },
+  {
+    "tag": "tofu and spices",
+    "patterns": [
+      "I want to make something with tofu and spices. What do you suggest?"
+    ],
+    "responses": [
+      "You can make Spicy Garlic Tofu",
+      "You can prepare Spicy Tofu"
+    ]
+  },
+  {
+    "tag": "beans and spices ",
+    "patterns": [
+      "What can I make with beans and spices that's vegetarian and delicious?"
+    ],
+    "responses": [
+      "You can make Spiced Black Beans",
+      "You can prepare Spiced Black Beans"
+    ]
+  },
+  {
+    "tag": "mushrooms and onions",
+    "patterns": [
+      "Can you suggest a recipe that uses mushrooms and onions for a flavorful dish?"
+    ],
+    "responses": [
+      "You can make Sauteed Mushroom and Onions",
+      "You can prepare Sauteed Mushroom and Onions"
+    ]
+  },
+  {
+    "tag": "coconut and shrimp",
+    "patterns": [
+      "I'm in the mood for something with coconut and shrimp. What do you suggest?"
+    ],
+    "responses": [
+      "You can make Coconut Shrimp Curry",
+      "You can prepare Coconut Shrimp Curry"
+    ]
+  },
+  {
+    "tag": "lamb and spices",
+    "patterns": [
+      "What can I make with lamb and spices for a flavorful Indian meal?"
+    ],
+    "responses": [
+      "You can make Spiced Lamb Stew",
+      "You can prepare Spicy Roasted Lamb"
+    ]
+  },
+  {
+    "tag": "mustard greens and spices",
+    "patterns": [
+      "Can you give me a recipe idea for a dish with mustard greens and spices?"
+    ],
+    "responses": [
+      "You can make Mustard Greens",
+     "You can prepare Spicy Sauteed Mustard Greens"
+    ]
+  },
+  {
+    "tag": "jackfruit and spices",
+    "patterns": [
+      "I have some jackfruit and spices. Can you suggest me a recipe idea?"
+    ],
+    "responses": [
+      "You can make Enchorer Torkari",
+      "You can prepare Enchorer Torkari"
+    ]
+  },
+  {
+    "tag": "besan and spices",
+    "patterns": [
+      "What can I make with besan and spices for a tasty and filling meal?"
+    ],
+    "responses": ["You can make Beguni also you can prepare Besan Borar Jhal"]
+  },
+  {
+    "tag": "ghee and cardamom",
+    "patterns": [
+      "I have some rice, ghee and cardamom. What can I make with these ingredients for a sweet dessert?"
+    ],
+    "responses": ["You can make Ghee vaat also you can prepare Mishti Polao"]
+  },
+  {
+    "tag": "bengali veg thali",
+    "patterns": [
+      "suggest me some bengali veg thali",
+      "make some bengali veg dishes",
+      "recommend some bengali veg food",
+      "what are the items has in bengali veg thali?",
+      "what items are there in bengali veg thali?"
+    ],
+    "responses": [
+      "Bengali Veg Thali Contains Salt, chilly, Lemon, Ghee, Salad, Fried Papad, Anarosher Chutney, Tamatoer Khajur Chutney, Ucche Bhaja, Chapor Ghanto, Chanar Dalna, Alur Dum, Potol Posto, Sobji Diye Moong Dal, Luchi, Rice, Misti Doi, Orange Rosagulla"
+    ]
+  },
+  {
+    "tag": "veg thali",
+    "patterns": [
+      "veg thali",
+      "i will prefer veg thali",
+      "I want to have veg food",
+      "I want to eat veg thali",
+      "i want to eat veg food",
+      "veg",
+      "veg food"
+    ],
+    "responses": [
+      "Good, then you can have Rice with Daal, Aloo posto, Enchorer torkari, Chanar dalna etc."
+    ]
+  },
+  {
+    "tag": "bengali non-veg thali",
+    "patterns": [
+      "suggest me some bengali non-veg thali",
+      "make some bengali non-veg dishes",
+      "recommend some bengali non-veg food",
+      "what are the items has in bengali non-veg thali?",
+      "what items are there in bengali non-veg thali?"
+    ],
+    "responses": [
+      "Bengali non-veg Thali Contains Steamed rice, Misti polao, 5 types fried vegetables, Daal(it can be any daal, I've made mung dal), Niramish enchorer dalna, Rohu fish kalia, Mutton kosha, Mango chatni, Papad, Payesh, Rasgulla, Aaam ras and Mukhwas."
+    ]
+  },
+  {
+    "tag": "non veg thali",
+    "patterns": [
+      "non veg thali",
+      "i will prefer non veg thali",
+      "I want to have non veg food",
+      "I want to eat non veg thali",
+      "i want to eat non veg food",
+      "non veg",
+      "non veg food"
+    ],
+    "responses": [
+      "Good, then you can have Steam Rice or Polao with Chicken or Mutton Kosha or Plain Rice with any kind of fish recipe or egg recipe"
+    ]
+  },
+
+
+
+
+
+
+
+
+  {
+    "tag": "Radha",
+    "patterns": [
+      "urad dal, water, ginger, green chillies, salt, fennel seeds, vegetable oil, nigella seeds, hing, sugar, maida",
+      "urad dal, water, ginger, green chillies, salt, fennel seeds",
+      "vegetable oil, nigella seeds, hing, sugar, maida",
+      "ginger, green chillies, salt, fennel seeds, vegetable oil, nigella seeds"
+    ],
+    "responses": ["you can make Radhaballabhi"]
+  },
+  {
+    "tag": "Radha reverse",
+    "patterns": [
+      "What ingredients are needed to make radhaballabhi?",
+      "Name the ingredients needed to make radhaballabhi",
+      "Can you name the ingredients that can make radhaballabhi",
+      "Suggest some ingredients that can make radhaballabhi"
+    ],
+    "responses": ["For this you'll require urad dal, water, ginger, green chillies, salt, fennel seeds, vegetable oil, nigella seeds, hing, sugar, maida"]
+  },
+  {
+    "tag": "Phuch",
+    "patterns": [
+      "Lime juice, tamarind pulp, blacksalt, salt, water, boiled potatoes, chaat masala, green chillies, onion chopped, atta, suji",
+      "Lime juice, tamarind pulp, blacksalt, salt, water, boiled potatoes",
+      "chaat masala, green chillies, onion chopped, atta, suji",
+      "blacksalt, salt, water, boiled potatoes, chaat masala, green chillies"
+    ],
+    "responses": ["you can make Phuchka"]
+  },
+  {
+    "tag": "Phuch reverse",
+    "patterns": [
+      "What ingredients are needed to make phuchka?",
+      "Name the ingredients needed to make phuchka",
+      "Can you name the ingredients that can make phuchka",
+      "Suggest some ingredients that can make phuchka" 
+    ],
+    "responses": ["You'll need Lime juice, tamarind pulp, blacksalt, salt, water, boiled potatoes, chaat masala, green chillies, onion chopped, atta, suji"]
+  },
+  {
+    "tag": "Pithe",
+    "patterns": [
+      "rice flour, water, salt, sugar, coconut, cardamom"
+    ],
+    "responses": ["you can make Pitha"]
+  },
+  {
+    "tag": "Pithe reverse",
+    "patterns": [
+      "What ingredients are needed to make pitha?",
+      "Name the ingredients needed to make pitha",
+      "Can you name the ingredients that can make pitha",
+      "Suggest some ingredients that can make pitha"
+    ],
+    "responses": ["You'll need rice flour, water, salt, sugar, coconut, cardamom"]
+  },
+  {
+    "tag": "Malpu",
+    "patterns": [
+      "milk, khoa, semolina, flour, sugar, ghee, cardamom, almond"
+    ],
+    "responses": ["you can make Malpua"]
+  },
+  {
+    "tag": "Malpu reverse",
+    "patterns": [
+      "What ingredients are needed to make malpua?",
+      "Name the ingredients needed to make malpua",
+      "Can you name the ingredients that can make malpua",
+      "Suggest some ingredients that can make malpua"
+    ],
+    "responses": ["you'll require milk, khoa, semolina, flour, sugar, ghee, cardamom, almond"]
+  },
+  {
+    "tag": "Narkl",
+    "patterns": [
+      "grated coconut, jaggery, sugar"
+    ],
+    "responses": ["you can make Naru"]
+  },
+  {
+    "tag": "Narkl reverse",
+    "patterns": [
+      "What ingredients are needed to make naru?",
+      "Name the ingredients needed to make naru",
+      "Can you name the ingredients that can make naru",
+      "Suggest some ingredients that can make naru"
+    ],
+    "responses": ["you'll need grated coconut, jaggery, sugar"]
+  },
+  {
+    "tag": "koraishuti",
+    "patterns": [
+      "maida, salt, sugar, green peas, green chillies, nigella seeds, hing, vegetable oil, water, ginger paste, cumin powder",
+      "maida, salt, sugar, green peas, green chillies, nigella seeds",
+      "hing, vegetable oil, water, ginger paste, cumin powder",
+      "green peas, green chillies, nigella seeds, hing, vegetable oil, water"
+    ],
+    "responses": ["you can make koraishutir kochuri"]
+  },
+  {
+    "tag": "koraishuti reverse",
+    "patterns": [
+      "What ingredients are needed to make koraishutir kochuri?",
+      "Name the ingredients needed to make koraishutir kochuri",
+      "Can you name the ingredients that can make koraishutir kochuri",
+      "Suggest some ingredients that can make koraishutir kochuri"
+    ],
+    "responses": ["you'll need maida, salt, sugar, green peas, green chillies, nigella seeds, hing, vegetable oil, water, ginger paste, cumin powder"]
+  },
+  {
+    "tag": "alu",
+    "patterns": [
+      "potato, kashmiri cuisine, onion, tomato, chilli pepper, cumin, coriander, garam masala, salt, ghee, ginger paste, chilli powder, dhaniya powder",
+      "potato, kashmiri cuisine, onion, tomato, chilli pepper, cumin",
+      "coriander, garam masala, salt, ghee, ginger paste, chilli powder, dhaniya powder",
+      "onion, tomato, chilli pepper, cumin, coriander, garam masala, salt, ghee, ginger paste, chilli powder"
+    ],
+    "responses": ["you can make alur dom"]
+  },
+  {
+    "tag": "alu reverse",
+    "patterns": [
+      "What ingredients are needed to make alur dom?",
+      "Name the ingredients needed to make alur dom",
+      "Can you name the ingredients that can make alur dom",
+      "Suggest some ingredients that can make alur dom"
+    ],
+    "responses": ["you'll need potato, kashmiri cuisine, onion, tomato, chilli pepper, cumin, coriander, garam masala, salt, ghee, ginger paste, chilli powder, dhaniya powder"]
+  },
+  {
+    "tag": "begun",
+    "patterns": [
+      "brinjal, chilli powder, turmeric powder, besan"
+    ],
+    "responses": ["you can make begun bhaja"]
+  },
+  {
+    "tag": "begun reverse",
+    "patterns": [
+      "What ingredients are needed to make begun bhaja?",
+      "Name the ingredients needed to make begun bhaja",
+      "Can you name the ingredients that can make begun bhaja",
+      "Suggest some ingredients that can make begun bhaja"
+    ],
+    "responses": ["you'll need brinjal, chilli powder, turmeric powder, besan"]
+  }
   ]
 }
