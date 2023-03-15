@@ -933,7 +933,7 @@
         "what snacks can be prepared in 5 minutes"
       ],
       "responses": [
-        "You can make Phuchka, Jhalmuri, Masalamuri, Behuni, Alur Chop, Peyaji etc."
+        "You can make Phuchka, Jhalmuri, Masalamuri, Beguni, Alur Chop, Peyaji etc."
       ]
     },
     {
@@ -1196,7 +1196,8 @@
         "common bengali desserts",
         "bengali ordinary desserts",
         "famous bengali desserts which people eat everyday",
-        "famous bengali sweets"
+        "famous bengali sweets",
+        "suggest me some bengali desserts after dinner"
        ],
       "responses": [ "Here are some common bengali desserts - Rasgulla, Nolen Gurer Sondesh, Baked Gulab Jamun, Rasmalai etc."] 
     },
