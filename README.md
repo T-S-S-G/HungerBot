@@ -52,8 +52,11 @@ $ python
 >>> import nltk
 >>> nltk.download('punkt')
 ```
+### Install of Flask framework
 
-## Usage
+```console
+pip install Flask
+```
 
 Run
 
